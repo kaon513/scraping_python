@@ -65,7 +65,7 @@ def get_all_pages_and_links(base_url, target_url):
             pager_buttons = WebDriverWait(driver, 10).until(
                 EC.presence_of_all_elements_located((By.CLASS_NAME, 'c-pager__button'))
             )
-            
+
             # "Next" というテキストを持つ<span>タグを含むボタンを見つけてクリック
             next_button = None
             for button in pager_buttons:
