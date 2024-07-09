@@ -72,7 +72,7 @@ def get_all_pages_and_links(base_url, target_url):
                 span = button.find_element(By.TAG_NAME, 'span')
                 if span.text == '次のページ':
                     next_button = button
-                     break
+                    break
             
             if next_button:
                 next_button.click()
