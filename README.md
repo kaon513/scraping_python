@@ -8,6 +8,7 @@ codespacesのテスト
 poetry add requests
 poetry add bs4
 poetry add selenium
+poetry add janome
 
 ## 実行コマンド
 poetry run python get_official_hashtag.py
