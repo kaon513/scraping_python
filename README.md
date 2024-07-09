@@ -12,3 +12,4 @@ poetry add selenium
 ## 実行コマンド
 poetry run python get_official_hashtag.py
 poetry run python get_topics.py
+poetry run python analysis_words.py
